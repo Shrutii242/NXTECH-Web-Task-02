@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgb(107, 3, 107),
+    rgb(194, 79, 194),
+    rgb(240, 135, 152)
+  );
+  font-family: "Itim", cursive;
+}
+.container {
+  background-color: rgb(160, 114, 160);
+  display: flex;
+  flex-direction: column;
+  margin: 6% 37%;
+  padding: 17px 34px;
+  width: 25%;
+  height: 100%;
+  justify-content: center;
+  border-radius: 15px 40px 15px 40px;
+}
+
+h2 {
+  margin: 17px 0px;
+  padding: 2px 0px;
+  font-size: 32px;
+}
+
+.time{
+    position: absolute;
+    background-color: rgb(69 29 104);
+    border-radius: 5px;
+    color: white;
+    width: 64px;
+    margin: 3% 59%;
+    padding: 7px 5px;
+}
+
+.question {
+  padding: 26px 2px;
+  border-top: 2px solid #9b8e8e;
+  font-size: 19px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  margin: 2px 2px;
+}
+
+.btn1 {
+  margin: 8px 2px;
+  padding: 11px 0px;
+  cursor: pointer;
+  font-family: "Itim", cursive;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn1:hover:not([disabled]) {
+  color: white;
+  background-color: black;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.btn2 {
+  margin: 8px 130px;
+  padding: 7px 0px;
+  border-radius: 5px;
+  background-color: rgb(119, 4, 226);
+  color: white;
+  font-family: "Itim", cursive;
+  width: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.btn2:hover{
+    color: white;
+    background-color: rgb(49, 4, 92);
+}
+
+.correct{
+    background-color: rgb(143, 231, 143);
+    color: black;
+}
+
+.incorrect{
+    background-color: rgb(228, 149, 149);
+    color: black;
+}
